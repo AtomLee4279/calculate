@@ -11,7 +11,7 @@
 @interface ViewController : UIViewController
 @property(nonatomic,weak)IBOutlet UITextField *textField1;
 @property(nonatomic,weak)IBOutlet UITextField *textField2;
-@property(nonatomic,weak)IBOutlet UITextField *result;
+@property(nonatomic,weak)IBOutlet UILabel *result;
 -(IBAction)onCountClick;
 
 @end

@@ -30,7 +30,7 @@
 
 -(IBAction)onCountClick
 {
-    int num1 = [_textField1.text intValue];
+    int num1 = [self.textField1.text intValue];
     int num2 = [_textField2.text intValue];
     int diff = num1 - num2;
     NSString* count = @"";
@@ -41,11 +41,11 @@
     }
     else
     {
-        /*
+        
         UIAlertController* alertVc = [UIAlertController alertControllerWithTitle:@"提示" message:@"输入有误" preferredStyle:UIAlertControllerStyleAlert];
         [alertVc addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
         [self presentViewController:alertVc animated:NO completion:nil];
-         */
+         
     }
      
 }
